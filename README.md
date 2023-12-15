@@ -1,2 +1,1 @@
-Cooking planner
-The project is made to assist people with cooking. The project allows to input the name of each of your ingridient and the time when it has to be added. 
+The project is called “Cooking planner”. Its main purpose it to assist people who enjoy cooking with planning their dishes. Project allows the user to input their ingredient name and cooking time. It alarms when each ingredient it ready and when to add next ingredient, to allow the person to not focus on time, but to focus on the dish itself. 
