@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Cooking timer</title>
+</head>
+
+<body>
+<h1>COOKING PLANNER FOR THE PERFECT DISH</h1>
+  <p>Write the ingridients of your dish in the order they need to be added. Write the time after which the next ingridient has to be added.</p>
+  <!-- Ingredient inputs -->
+    <form id="ingredientsForm">
+
+      <!-- Ingredients -->
+      <div id="ingredientInputs">
+        
+        <!-- Ingredient 1 -->
+        <h2>Ingredient 1</h2>
+        <label for="i1">Ingredient name:</label>
+        <input id="i1" class="ingredient">
+        <label for="t1_minutes"> Minutes:</label>
+        <input id="t1_minutes" class="time" type="number" min="0" placeholder="minutes">
+        <label for="t1_seconds"> Seconds:</label>
+        <input id="t1_seconds" class="time" type="number" min="0" placeholder="seconds"><br><br>
+
+        <!-- Ingredient 2 -->
+        <h2>Ingredient 2</h2>
+        <label for="i2">Ingredient name:</label>
+        <input id="i2" class="ingredient">
+        <label for="t2_minutes"> Minutes:</label>
+        <input id="t2_minutes" class="time" type="number" min="0" placeholder="minutes">
+        <label for="t2_seconds"> Seconds:</label>
+        <input id="t2_seconds" class="time" type="number" min="0" placeholder="seconds"><br><br>
+
+        <!-- Ingredient 3 -->
+        <h2>Ingredient 3</h2>
+        <label for="i3">Ingredient name:</label>
+        <input id="i3" class="ingredient">
+        <label for="t3_minutes"> Minutes:</label>
+        <input id="t3_minutes" class="time" type="number" min="0" placeholder="minutes">
+        <label for="t3_seconds"> Seconds:</label>
+        <input id="t3_seconds" class="time" type="number" min="0" placeholder="seconds"><br><br>
+
+        <!-- Ingredient 4 -->
+        <h2>Ingredient 4</h2>
+        <label for="i4">Ingredient name:</label>
+        <input id="i4" class="ingredient">
+        <label for="t4_minutes"> Minutes:</label>
+        <input id="t4_minutes" class="time" type="number" min="0" placeholder="minutes">
+        <label for="t4_seconds"> Seconds:</label>
+        <input id="t4_seconds" class="time" type="number" min="0" placeholder="seconds"><br><br>
+
+        <!-- Ingredient 5 -->
+        <h2>Ingredient 5</h2>
+        <label for="i5">Ingredient name:</label>
+        <input id="i5" class="ingredient">
+        <label for="t5_minutes"> Minutes:</label>
+        <input id="t5_minutes" class="time" type="number" min="0" placeholder="minutes">
+        <label for="t5_seconds"> Seconds:</label>
+        <input id="t5_seconds" class="time" type="number" min="0" placeholder="seconds"><br><br>
+
+        <!-- Ingredient 6 -->
+        <h2>Ingredient 6</h2>
+        <label for="i6">Ingredient name:</label>
+        <input id="i6" class="ingredient">
+        <label for="t6_minutes"> Minutes:</label>
+        <input id="t6_minutes" class="time" type="number" min="0" placeholder="minutes">
+        <label for="t6_seconds"> Seconds:</label>
+        <input id="t6_seconds" class="time" type="number" min="0" placeholder="seconds"><br><br>
+      
+      </div>
+      <!-- Single submit button for all ingredients -->
+      <button type="button" onclick="submitAllIngredients()">Submit all ingredients</button>
+    </form>
+
+    <div class="custom-alert" id="customAlert">
+      <p id="alert-message"></p>
+      <button id="closeButton" onclick="closeAlert()">Close</button>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
